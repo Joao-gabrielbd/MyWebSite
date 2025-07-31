@@ -1,0 +1,13 @@
+.campo_texto textarea{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    height: 8vh;
+    width: 99%;
+    padding: 5px 10px;
+    border-radius: 20px;
+    resize: none;
+    box-shadow: 8px 10px rgb(1, 150, 155);
+}
+
+
+

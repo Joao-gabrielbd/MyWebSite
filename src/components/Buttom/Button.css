@@ -1,0 +1,11 @@
+.Comment_button {
+    width: 10%;
+    border-radius: 15px;
+    margin: 20px 0;
+    padding: 15px ;
+    box-shadow:8px 10px rgb(1, 150, 155);
+}
+
+.Comment_button:hover {
+    background-color: #9e9e9e;
+}

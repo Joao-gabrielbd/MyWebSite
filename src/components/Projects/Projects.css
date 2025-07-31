@@ -1,0 +1,59 @@
+
+
+.Projects {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.h1-projects {
+    font-size: 3.15rem;
+    text-align: center;
+    margin-top: 10vh;
+    border-bottom: 4px solid;
+    padding: 15px;
+    display: inline-block;
+}
+
+.Projects_text {
+    display: flex;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 10vh;
+}
+
+.Projects_container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin: 0 50px;
+    
+}
+
+.Projects_container img {
+    height: 25vh;
+    width: 25vh;
+    border-radius: 20px;
+}
+
+.Card_projects {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    transition: transform 0.5s ease;
+}
+
+.Card_projects:hover {
+    transform: scale(1.02);
+}
+
+.Card_txt {
+    font-size: 1.5rem;
+    margin: 25px;
+}
+
+.hr_projects {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    width: 100px;
+}

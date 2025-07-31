@@ -1,0 +1,27 @@
+.commentArea {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+}
+
+.comments {
+  width: 600px;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: rgb(0, 167, 173);
+  color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.commentName {
+  margin-top: 10px;
+}
+
+.comment {
+  margin-top: 20px;
+}

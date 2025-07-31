@@ -1,0 +1,27 @@
+.Home {
+    background-image: url('/public/imagem/Banner.png');
+    background-size: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 50vh;
+    transition: background-size 0.5s ease;
+}
+
+.Home:hover{
+    background-size: 100%;
+}
+
+.Home_title {
+    position: absolute;
+    margin: 14vh 6vh;
+    height: 8vh;
+}
+
+.Home-h1 {
+    font-size: 4.40rem;
+}
+
+.Home-h1 strong {
+    color: rgb(0, 167, 173)
+}
