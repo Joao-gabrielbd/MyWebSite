@@ -7,7 +7,7 @@ function Banner() {
                 <div className="Home_title">
                     <h1 className="Home-h1">
                         ONE MINUTE <br />
-                        OF YOURS <br />
+                        OF YOUR TIME <br />
                         CAN SAVE <strong><br />THE OCEAN!</strong>
                     </h1>
                     <h2 className="Home-h2">

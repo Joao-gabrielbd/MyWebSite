@@ -8,7 +8,7 @@
     transition: background-size 0.5s ease;
 }
 
-.Home:hover{
+.Home:hover {
     background-size: 100%;
 }
 
@@ -23,5 +23,48 @@
 }
 
 .Home-h1 strong {
-    color: rgb(0, 167, 173)
+    color: rgb(0, 167, 173);
+}
+
+/* Responsividade para telas até 1024px (tablets e menores) */
+@media (max-width: 1024px) {
+    .Home_title {
+        margin: 10vh 4vh;
+    }
+
+    .Home-h1 {
+        font-size: 3.2rem;
+    }
+}
+
+/* Responsividade para telas até 768px (celulares grandes) */
+@media (max-width: 768px) {
+    .Home {
+        background-size: cover;
+        height: 45vh;
+    }
+
+    .Home_title {
+        margin: 8vh 3vh;
+        height: auto;
+    }
+
+    .Home-h1 {
+        font-size: 2.4rem;
+    }
+}
+
+/* Responsividade para telas até 480px (celulares pequenos) */
+@media (max-width: 480px) {
+    .Home {
+        height: 40vh;
+    }
+
+    .Home_title {
+        margin: 6vh 2vh;
+    }
+
+    .Home-h1 {
+        font-size: 1.8rem;
+    }
 }

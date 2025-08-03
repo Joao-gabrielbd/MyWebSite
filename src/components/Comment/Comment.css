@@ -1,4 +1,4 @@
-.campo_texto textarea{
+.campo_texto textarea {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     height: 8vh;
@@ -8,6 +8,31 @@
     resize: none;
     box-shadow: 8px 10px rgb(1, 150, 155);
 }
+
+/* Responsividade para tablets */
+@media (max-width: 1024px) {
+    .campo_texto textarea {
+        font-size: 16px;
+        height: 9vh;
+    }
+}
+
+/* Responsividade para celulares grandes */
+@media (max-width: 768px) {
+    .campo_texto textarea {
+        font-size: 15px;
+        height: 10vh;
+    }
+}
+
+/* Responsividade para celulares pequenos */
+@media (max-width: 480px) {
+    .campo_texto textarea {
+        font-size: 14px;
+        height: 12vh;
+    }
+}
+
 
 
 

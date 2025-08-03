@@ -5,10 +5,10 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  height: 3%;
+  height: auto; /* melhor usar auto para o conteúdo */
   background-color: #000000;
   color: white;
-  padding: 1rem;
+  padding: 1rem 0;
   z-index: 1000;
 }
 
@@ -22,8 +22,45 @@ nav ul {
 
 nav a {
   text-decoration: none;
-   font-size: 1.6rem;
-   margin: 20px;
-   color: rgb(255, 255, 255);
+  font-size: 1.6rem;
+  margin: 20px;
+  color: rgb(255, 255, 255);
 }
- 
+
+/* Responsividade para tablets */
+@media (max-width: 1024px) {
+  nav a {
+    font-size: 1.3rem;
+    margin: 15px;
+  }
+}
+
+/* Responsividade para celulares grandes */
+@media (max-width: 768px) {
+  nav ul {
+    gap: 25px;
+  }
+  
+  nav a {
+    font-size: 1.1rem;
+    margin: 10px;
+  }
+}
+
+/* Responsividade para celulares pequenos */
+@media (max-width: 480px) {
+  nav {
+    padding: 0.5rem 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  nav a {
+    font-size: 1rem;
+    margin: 8px 0;
+  }
+}

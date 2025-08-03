@@ -1,6 +1,5 @@
-.campo_texto{
+.campo_texto {
     margin: 24px 0;
-
 }
 
 .campo_texto label {
@@ -8,6 +7,7 @@
     margin: 3px;
     font-size: 28px;
 }
+
 .campo_texto input {
     border: none;
     border-radius: 20px;
@@ -15,4 +15,38 @@
     height: 40px;
     padding: 3px 5px;
     box-shadow: 8px 10px rgb(1, 150, 155);
+}
+
+/* Responsividade para tablets */
+@media (max-width: 1024px) {
+    .campo_texto label {
+        font-size: 24px;
+    }
+
+    .campo_texto input {
+        height: 38px;
+    }
+}
+
+/* Responsividade para celulares grandes */
+@media (max-width: 768px) {
+    .campo_texto label {
+        font-size: 20px;
+    }
+
+    .campo_texto input {
+        height: 36px;
+        padding: 4px 10px;
+    }
+}
+
+/* Responsividade para celulares pequenos */
+@media (max-width: 480px) {
+    .campo_texto label {
+        font-size: 18px;
+    }
+
+    .campo_texto input {
+        height: 34px;
+    }
 }

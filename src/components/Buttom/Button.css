@@ -2,10 +2,31 @@
     width: 10%;
     border-radius: 15px;
     margin: 20px 0;
-    padding: 15px ;
-    box-shadow:8px 10px rgb(1, 150, 155);
+    padding: 15px;
+    box-shadow: 8px 10px rgb(1, 150, 155);
 }
 
 .Comment_button:hover {
     background-color: #9e9e9e;
+}
+
+/* Responsividade para tablets */
+@media (max-width: 1024px) {
+    .Comment_button {
+        width: 20%;
+    }
+}
+
+/* Responsividade para celulares grandes */
+@media (max-width: 768px) {
+    .Comment_button {
+        width: 40%;
+    }
+}
+
+/* Responsividade para celulares pequenos */
+@media (max-width: 480px) {
+    .Comment_button {
+        width: 60%;
+    }
 }

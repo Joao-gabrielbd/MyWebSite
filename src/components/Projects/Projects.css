@@ -1,59 +1,144 @@
-
-
 .Projects {
-    text-align: center;
-    margin-top: 10vh;
+  text-align: center;
+  margin-top: 10vh;
 }
 
 .h1-projects {
-    font-size: 3.15rem;
-    text-align: center;
-    margin-top: 10vh;
-    border-bottom: 4px solid;
-    padding: 15px;
-    display: inline-block;
+  font-size: 3.15rem;
+  text-align: center;
+  margin-top: 10vh;
+  border-bottom: 4px solid;
+  padding: 15px;
+  display: inline-block;
 }
 
 .Projects_text {
-    display: flex;
-    text-align: center;
-    font-size: 1.4rem;
-    margin: 10vh;
+  display: flex;
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 10vh;
 }
 
+/* Ajustar flex container para colunas em telas pequenas */
 .Projects_container {
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-    margin: 0 50px;
-    
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin: 0 50px;
 }
 
 .Projects_container img {
-    height: 25vh;
-    width: 25vh;
-    border-radius: 20px;
+  height: 25vh;
+  width: 25vh;
+  border-radius: 20px;
 }
 
 .Card_projects {
-    display: flex;
-    align-items: center;
-    border-radius: 20px;
-    transition: transform 0.5s ease;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  transition: transform 0.5s ease;
+}
+
+.subtitulo_projects {
+  margin: 0 26px;
 }
 
 .Card_projects:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .Card_txt {
-    font-size: 1.5rem;
-    margin: 25px;
+  font-size: 1.5rem;
+  margin: 25px;
 }
 
 .hr_projects {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    width: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  width: 100px;
+}
+
+/* Responsividade para tablets */
+@media (max-width: 1024px) {
+  .Projects_text {
+    margin: 6vh;
+    font-size: 1.2rem;
+    flex-direction: column;
+  }
+
+  .Projects_container {
+    margin: 0 30px;
+    gap: 60px;
+  }
+
+  .Projects_container img {
+    height: 20vh;
+    width: 20vh;
+  }
+
+  .Card_txt {
+    font-size: 1.3rem;
+    margin: 15px;
+  }
+
+  .subtitulo_projects {
+    margin: 0 15px;
+  }
+}
+
+/* Responsividade para celulares grandes */
+@media (max-width: 768px) {
+  .Projects_text {
+    font-size: 1.1rem;
+    margin: 5vh 15px;
+  }
+
+  .Projects_container {
+    margin: 0 15px;
+    gap: 40px;
+  }
+
+  .Projects_container img {
+    height: 18vh;
+    width: 18vh;
+  }
+
+  .Card_txt {
+    font-size: 1.1rem;
+    margin: 12px;
+  }
+
+  .subtitulo_projects {
+    margin: 0 10px;
+  }
+}
+
+/* Responsividade para celulares pequenos */
+@media (max-width: 480px) {
+  .Projects_text {
+    font-size: 1rem;
+    margin: 3vh 10px;
+    flex-direction: column;
+  }
+
+  .Projects_container {
+    margin: 0 10px;
+    gap: 30px;
+  }
+
+  .Projects_container img {
+    height: 15vh;
+    width: 15vh;
+  }
+
+  .Card_txt {
+    font-size: 0.9rem;
+    margin: 10px;
+  }
+
+  .subtitulo_projects {
+    margin: 0 8px;
+  }
 }

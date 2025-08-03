@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     margin: 200px 0;
-    
 }
 
 .formulario form {
@@ -20,4 +19,54 @@
     margin-bottom: 50px;
 }
 
+/* Responsividade para tablets e telas menores */
+@media (max-width: 1024px) {
+    .formulario form {
+        width: 70%;
+        height: auto;
+        padding: 30px;
+    }
 
+    .formulario h2 {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    .formulario {
+        margin: 150px 0;
+    }
+}
+
+/* Responsividade para celulares grandes */
+@media (max-width: 768px) {
+    .formulario form {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .formulario h2 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .formulario {
+        margin: 100px 0;
+    }
+}
+
+/* Responsividade para celulares pequenos */
+@media (max-width: 480px) {
+    .formulario form {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .formulario h2 {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .formulario {
+        margin: 80px 0;
+    }
+}

@@ -7,8 +7,43 @@
 .campo_lista select {
     border: none;
     border-radius: 20px;
-    width: 101%;
+    width: 100%;
     height: 48px;
     padding: 3px 5px;
     box-shadow: 8px 10px rgb(1, 150, 155);
+}
+
+/* Responsividade para tablets */
+@media (max-width: 1024px) {
+    .campo_lista label {
+        font-size: 24px;
+    }
+
+    .campo_lista select {
+        height: 44px;
+    }
+}
+
+/* Responsividade para celulares grandes */
+@media (max-width: 768px) {
+    .campo_lista label {
+        font-size: 20px;
+    }
+
+    .campo_lista select {
+        height: 40px;
+        padding: 4px 8px;
+    }
+}
+
+/* Responsividade para celulares pequenos */
+@media (max-width: 480px) {
+    .campo_lista label {
+        font-size: 18px;
+    }
+
+    .campo_lista select {
+        height: 36px;
+        padding: 5px 10px;
+    }
 }

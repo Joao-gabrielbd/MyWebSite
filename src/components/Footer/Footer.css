@@ -25,20 +25,43 @@
     align-items: center;
     width: 45%; 
     font-weight: bold;
-    text-decoration: none;
-    color: black;
 }
 
 .Rodape__links img {
-    flex-direction: column;
-    flex-wrap: wrap;
     width: 2rem;
     height: 2rem;
 }
 
-@media (max-width: 800px) {  
-    .Home{
-    background-size: 200%;
-    height: 65vh;
-    }  
+/* Responsividade para telas até 800px */
+@media (max-width: 800px) {
+    .Home {
+        background-size: 200%;
+        height: 65vh;
+    }
+
+    .Rodape {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 3vh 4vw;
+        margin-top: 8%;
+        font-size: 1rem;
+        gap: 15px;
+    }
+
+    .Rodape__links {
+        max-width: 100%;
+        gap: 15px 20px;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .Rodape__links a {
+        width: auto;
+        font-size: 0.9rem;
+    }
+
+    .Rodape__links img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
 }
